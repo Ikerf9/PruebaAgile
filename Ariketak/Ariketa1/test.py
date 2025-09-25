@@ -1,8 +1,7 @@
-import kalkulagailua
-if __name__ == '__main__':
-    input1=int(input("N1: "))
-    input2=int(input("N2: "))
+from main import kalkulagailua
 
-    
-    print(kalkulagailua.batuketa(input1, input2))
+def test_batuketa():
+    assert kalkulagailua().batuketa(5, 3) == 8
+
+##llamal fitxategia sortu
 
