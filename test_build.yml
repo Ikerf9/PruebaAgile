@@ -34,7 +34,7 @@ jobs:
      context: .
      file: ./Dockerfile
      push: true
-     tags: ghcr.io/aelortza-uni/actions-adibidea:latest
+     tags: ghcr.io/farin/actions-Desktop/PruebaAgile:latest
 
  - name: Test the built image
    run: |
